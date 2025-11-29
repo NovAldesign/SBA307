@@ -13,19 +13,16 @@ html, body {
 .container {
     height: 100%;
 }
-.nav {
 
-}
 .hero {
     width: 100%;
     margin-top: 60px;
     
 }
 .gym {
-   border: 10px solid black;
-   display: 
-   
+   border: 10px solid #D81E5B;
 }
+
 .content {
     text-align: center;
 }
