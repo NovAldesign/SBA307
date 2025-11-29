@@ -68,11 +68,17 @@ h1 {
 
 .sub {
     margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-right: 80px;
     border: 2px solid black;
-    padding-left: 40px;
+    background-color:#F46197;
+    padding-left: 15px;
     padding-bottom: 20px;
 }
 
+.subscribe {
+    text-align:center;
+    color: white;
+}
 /*Font colors: 
