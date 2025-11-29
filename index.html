@@ -15,23 +15,36 @@
         <!--Navigation Bar-->
         <div class="nav">
             <a class="active" href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="pages/Contact.html">Contact</a>
-            <a href="#about">About</a>
+            <a class="active" href="#news">News</a>
+            <a class="active" href="pages/Contact.html">Contact</a>
+            <a class="active" href="#about">About</a>
         </div>
     </header>
+    
     <main class="container">
         <!--Div centered inline-->
         <div class="hero">
-            <img class="gym" src="images/stretching.jpg" alt="woman stretching" height="300px" width="33%"/>
-            <img class="gym" src="./images/gym.jpg" alt="gym equipment" height="300px" width="33%"/>
-            <img class="gym" src="./images/trainer.jpg" alt="trainer" height="300px" width="33%"/>
+            <img class="gym" src="images/stretching.jpg" alt="woman stretching" height="225x" width="33%" />
+            <img class="gym" src="./images/gym.jpg" alt="gym equipment" height="225px" width="33%" />
+            <img class="gym" src="./images/trainer.jpg" alt="trainer" height="225px" width="33%" />
         </div>
-          <!--Website Content-->
-            <div class="content">
-                <h1 class="fit">FITNESS TRACKER</h1>
+        <!--Website Content-->
+        <div class="content">
+            <h1 class="fit">FITNESS TRACKER</h1>
             <p class="fit1">Find your tribe today and join thousands of people on fitness challanges each day!</p>
             <button>Join Now</button>
+        </div>
+        <div class="sub">
+            <h2 class="subscribe">Subscribe To Our Newsletter</h2>
+            <form id="subscribe1">
+                <label for="firstname">First name:</label>
+                <input type="text" id="firstname" name="firstname" value="Jane">
+                <label for="lastname">Last name:</label>
+                <input type="text" id="lastname" name="lastname" value="Doe"><br><br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" value="j.doe@gmail.com"><br><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </main>
 </body>
