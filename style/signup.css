@@ -5,7 +5,8 @@ body {
     height: 100%;
     box-sizing: border-box;
     background-color: #FFFDF7;
-    overflow: auto;
+  
+
 }
 
 *,
@@ -14,9 +15,11 @@ body {
     box-sizing: inherit;
 }
 
-.container {
+.container1 {
     height: 100%;
-    width: 100%;
+   width: 100%;
+  
+    
 }
 
 ul {
