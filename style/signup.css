@@ -1,6 +1,6 @@
 html,
 body {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     height: 100%;
     box-sizing: border-box;
@@ -57,13 +57,13 @@ ul li a:hover {
 }
 
 
-  button {
-        background-color: #ff5733; 
+ .btn btn-dark {
+        background-color: #d63384;; 
         border-color: #ff5733; 
         color: white; 
     }
 
-    button:hover {
+   .btn btn-dark:hover {
         background-color: #e64a2e; 
         border-color: #e64a2e; 
     }

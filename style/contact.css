@@ -13,11 +13,6 @@ body {
     box-sizing: inherit;
 }
 
-.container {
-    height: 50%;
-    width: 100%
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -56,6 +51,10 @@ ul li a:hover {
     font-size: 24px;
 }
 
+.container {
+    height: 100%;
+    width: 100%
+}
 
 
 

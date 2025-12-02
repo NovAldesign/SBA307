@@ -5,6 +5,7 @@ body {
     height: 100%;
     box-sizing: border-box;
     background-color: #FFFDF7;
+    
 }
 
 *,
@@ -13,10 +14,6 @@ body {
     box-sizing: inherit;
 }
 
-.container {
-    height: 50%;
-    width: 100%
-}
 
 ul {
     list-style-type: none;
@@ -54,10 +51,18 @@ ul li a:hover {
     background-color: #F46197;
     color: black;
     font-size: 24px;
+
 }
 
+.container {
+    height: 100%;
+    width: 100%
+    
+}
+
+
 .hero {
-    width: 100%;
+    width: 100;
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
@@ -111,6 +116,7 @@ input::placeholder {
     width: 100%;
     background-color:#134455;
     color: white;
+
    
 }
 /*Font colors: 
