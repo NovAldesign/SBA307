@@ -14,13 +14,14 @@
     <header>
         <!--Navigation Bar-->
         <div class="nav">
-            <a class="active" href="#home">Home</a>
-            <a class="active" href="#news">News</a>
-            <a class="active" href="pages/Contact.html">Contact</a>
-            <a class="active" href="#about">About</a>
+            <ul id="nav">
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a class="active" href="#signup">Sign Up</a></li>
+                <li><a class="active" href="pages/Contact.html">Contact</a></li>
+            </ul>
         </div>
     </header>
-    
+
     <main class="container">
         <!--Div centered inline-->
         <div class="hero">
@@ -31,22 +32,32 @@
         <!--Website Content-->
         <div class="content">
             <h1 class="fit">FITNESS TRACKER</h1>
-            <p class="fit1">Find your tribe today and join thousands of people on fitness challanges each day!</p>
+            <h3 class="fit1">Find your tribe today and join thousands of people on fitness challanges each day!</h3>
+            <p>Take the guesswork out of achieving your fitness goals with our intuitive and powerful fitness tracker.
+                Effortlessly log your workouts, monitor your progress, and gain clear insights into your daily activity
+                levels. But it's more than just a tracking tool—it's a community. Join engaging challenges with other
+                members to share support, spark healthy competition, and receive the encouragement you need to stay
+                consistent and push your limits. Start tracking, connecting, and conquering your personal bests today!
+            </p>
             <button>Join Now</button>
         </div>
         <div class="sub">
             <h2 class="subscribe">Subscribe To Our Newsletter</h2>
             <form id="subscribe1">
                 <label for="firstname">First name:</label>
-                <input type="text" id="firstname" required name="firstname" value="Jane">
+                <input type="text" id="firstname" required name="firstname" placeholder="Jane">
                 <label for="lastname">Last name:</label>
-                <input type="text" id="lastname" required name="lastname" value="Doe">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" required name="email" value="j.doe@gmail.com"><br><br>
+                <input type="text" id="lastname" required name="lastname" placeholder="Doe">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required name="email" placeholder="j.doe@gmail.com"><br><br>
                 <input type="submit" value="Submit">
             </form>
         </div>
     </main>
 </body>
+
+<footer class="foot">
+    <h3>Copyright © 2025</h3>
+</footer>
 
 </html>
