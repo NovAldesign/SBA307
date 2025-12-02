@@ -60,18 +60,6 @@ ul li a:hover {
 }
 
 
- .btn btn-dark {
-        background-color: #d63384;; 
-        border-color: #ff5733; 
-        color: white; 
-    }
-
-   .btn btn-dark:hover {
-        background-color: #e64a2e; 
-        border-color: #e64a2e; 
-    }
-
-
 .foot {
     position: fixed;
     bottom: 0; 
