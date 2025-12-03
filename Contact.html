@@ -21,34 +21,50 @@
             </ul>
         </div>
     </header>
-    
-    <main class="container">
-      <div class="contact">
-        <form class="contact1">
-        <h1>Contact Us</h1>
-        <p>If you have any questions about the fitness challenges, need help tracking your progress, or have feedback on how we can improve your experience, please reach out.
-Complete the form below to get in touch with the Fitness Challenge Tracker support team, and we will respond as soon as possible. </p>
-        <br>
-        <label for="fname">First and Last Name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="Full name"><br>
 
-  <label for="phone">Phone Number:</label><br>
-  <input type="tel" id="phone" name="phone"><br>
+    <div class="contact">
+        <main class="container">
+            <div class="contact">
 
-  <label for="email">Email Address</label>
-  <input type="email" id="email" name="email">
-        </form>
-   </div>
-   <div>
-    <form>
+                <form class="contact1" action="#">
+                    <h1>Contact Us</h1>
+                    <p>If you have any questions about the fitness challenges, need help tracking your progress, or have
+                        feedback on how we can improve your experience, please reach out.
+                        Complete the form below to get in touch with the Fitness Challenge Tracker support team, and we
+                        will
+                        respond as soon as possible. </p>
+                    <fieldset class="form1">
+                        <label for="fname">First and Last Name:</label>
+                        <input type="text" id="fname" name="fname" required placeholder="John Doe"><br>
 
-    </form>
-   </div>
-    </main>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="555-555-5555"><br>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="joedoe@gmail.com "><br>
+
+                        <label for="perferred_contact">Preferred Contact Method:</label>
+                        <input type="radio" id="phone1" name="contact1" value="phone1">
+                        <label>Phone Number</label>
+                        <input type="radio" id="email1" name="contact1" value="email1">
+                        <label>Email</label><br>
+                        <label for="message">Please let us know why you need to be contacted:</label>
+                        <textarea id="message" name="contactMessage" rows=""cols="80"></textarea>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </fieldset>
+<div>
+    <img src=""
+</div>
+                     </form>
+
+            </div>
+        </main>
+        <div class="foot1">
+            <footer class="foot">
+                <h6>Copyright © 2025</h6>
+            </footer>
+        </div>
 </body>
-
-<footer class="foot">
-    <h6>Copyright © 2025</h6>
-</footer>
 
 </html>

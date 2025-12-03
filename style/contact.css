@@ -5,6 +5,7 @@ body {
     height: 100%;
     box-sizing: border-box;
     background-color: #FFFDF7;
+   
 }
 
 *,
@@ -51,10 +52,30 @@ ul li a:hover {
     font-size: 24px;
 }
 
+h1 { 
+    text-align: center;
+    color:#F46197;
+    font-size: 45px;
+    padding-top: 2px;
+
+
+}
+
 .container {
     height: 100%;
-    width: 100%
-    
+    width: 50%;
+    margin: 5%;
+    border: 5px solid #F46197;
+    background: radial-gradient(#FFFDF7, #84e8c8, #faafc7);
+    padding: 10px;
+
+}
+
+.contact {
+    height: 100%;
+    width: 100%;
+  
+
 }
 
 
