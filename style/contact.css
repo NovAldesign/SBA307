@@ -1,13 +1,10 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    box-sizing: border-box;
-    background-color: #FFFDF7;
-   
+html, body {
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #FFFDF7;
+  display: block;
 }
-
 *,
 *::before,
 *::after {
@@ -28,7 +25,7 @@ ul {
 }
 
 ul li {
-    float: center;
+    float: inherit;
     border-right: 1px solid #bbbbbb;
 }
 
@@ -52,42 +49,53 @@ ul li a:hover {
     font-size: 24px;
 }
 
-h1 { 
+h1 {
     text-align: center;
-    color:#F46197;
+    color: #F46197;
     font-size: 45px;
-    padding-top: 2px;
+    padding-top: 20px;
 
-
+}
+p{
+    text-align: justify;
+    margin: 30px; 
+}
+label{
+    margin-left: 20px;
+    line-height: 1.5;
+}
+textarea {
+    padding: 10px;
+    margin-left: 20px;
 }
 
 .container {
-    height: 100%;
-    width: 50%;
-    margin: 5%;
+    
+    width:55%;
+    margin: auto;
     border: 5px solid #F46197;
     background: radial-gradient(#FFFDF7, #84e8c8, #faafc7);
-    padding: 10px;
-
-}
-
-.contact {
-    height: 100%;
-    width: 100%;
-  
-
+    display: flex;
+    flex-grow: 1;
 }
 
 
 
+.phone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 70%;
+}
 
 .foot {
     position: fixed;
-    bottom: 0; 
+    bottom: 0;
     display: block;
     text-align: center;
     width: 100%;
-    background-color:#134455;
+    background-color: #134455;
     color: white;
-   
+
 }
