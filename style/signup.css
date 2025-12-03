@@ -21,8 +21,10 @@ ul {
     background-color: #134455;
     display: flex;
     justify-content: center;
+    position: fixed;
     top: 0;
     width: 100%;
+
 }
 
 ul li {
@@ -48,6 +50,7 @@ ul li a:hover {
     background-color: #F46197;
     color: black;
     font-size: 24px;
+
 }
 
 .contain1 {
