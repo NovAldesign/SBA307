@@ -83,6 +83,20 @@ h1 {
     font-size: 60px;
 }
 
+#join {
+    background-color: #134455;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+   
+
+}
+
+
+
+
 .sub {
     margin-top: 40px;
     margin-left: 80px;
@@ -116,7 +130,5 @@ input::placeholder {
     width: 100%;
     background-color:#134455;
     color: white;
-
-   
+    
 }
-/*Font colors: 
