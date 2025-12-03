@@ -64,22 +64,43 @@ label{
     margin-left: 20px;
     line-height: 1.5;
 }
+.contact {
+    padding: 10px;
+    
+}
+
+.container { 
+    width:55%;
+    height: 100%;
+    margin: auto;
+    border: 5px solid #F46197;
+    background: radial-gradient(#FFFDF7, #84e8c8, #faafc7);
+  
+}
+
 textarea {
     padding: 10px;
     margin-left: 20px;
 }
+.submit {
+    background-color: #F46197;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 15px;
 
-.container {
-    
-    width:55%;
-    margin: auto;
-    border: 5px solid #F46197;
-    background: radial-gradient(#FFFDF7, #84e8c8, #faafc7);
-    display: flex;
-    flex-grow: 1;
 }
 
-
+a {
+    text-decoration: none;
+}
+fieldset {
+ width: 80%;
+ margin: 0;
+}
 
 .phone {
     display: block;
