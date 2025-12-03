@@ -1,10 +1,13 @@
-html, body {
-  margin: 0;
-  height: 100%;
-  box-sizing: border-box;
-  background-color: #FFFDF7;
-  display: block;
+html,
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFDF7;
+    display: block;
 }
+
 *,
 *::before,
 *::after {
@@ -53,35 +56,39 @@ h1 {
     text-align: center;
     color: #F46197;
     font-size: 45px;
-    padding-top: 20px;
+    padding-top: 10px;
+}
 
-}
-p{
+p {
     text-align: justify;
-    margin: 30px; 
+    margin: 30px;
 }
-label{
+
+label {
     margin-left: 20px;
     line-height: 1.5;
 }
-.contact {
-    padding: 10px;
-    
-}
 
-.container { 
-    width:55%;
+.main1 {
+    height: 100%;
+    padding-top: 75px;
+    padding-bottom: 85px;
+}
+.container {
+    width: 55%;
     height: 100%;
     margin: auto;
     border: 5px solid #F46197;
     background: radial-gradient(#FFFDF7, #84e8c8, #faafc7);
-  
+    
+
 }
 
 textarea {
     padding: 10px;
     margin-left: 20px;
 }
+
 .submit {
     background-color: #F46197;
     color: white;
@@ -97,9 +104,10 @@ textarea {
 a {
     text-decoration: none;
 }
+
 fieldset {
- width: 80%;
- margin: 0;
+    width: 80%;
+    margin: 0;
 }
 
 .phone {
@@ -108,6 +116,7 @@ fieldset {
     margin-right: auto;
     padding-top: 10px;
     width: 70%;
+
 }
 
 .foot {
@@ -118,5 +127,6 @@ fieldset {
     width: 100%;
     background-color: #134455;
     color: white;
+    padding-top: 10px;
 
 }
